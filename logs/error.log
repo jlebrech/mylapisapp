@@ -23,3 +23,4 @@
 2013/05/04 14:11:54 [emerg] 1078#0: directive "postgres_server" is not terminated by ";" in /Users/jlebrech/mylapisapp/nginx.conf.compiled:39
 2013/05/04 14:12:49 [warn] 1102#0: lua_code_cache is off; this will hurt performance in /Users/jlebrech/mylapisapp/nginx.conf.compiled:15
 2013/05/04 14:12:49 [emerg] 1102#0: directive "postgres_server" is not terminated by ";" in /Users/jlebrech/mylapisapp/nginx.conf.compiled:39
+2013/05/04 16:58:59 [warn] 2436#0: lua_code_cache is off; this will hurt performance in /Users/jlebrech/mylapisapp/nginx.conf.compiled:15

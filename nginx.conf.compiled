@@ -36,6 +36,6 @@ http {
   }
 
   upstream database {
-    postgres_server ${{pg POSTGRESQL_URL}};
+    postgres_server 127.0.0.1 dbname=mydatabase user=lapis password=password;
   }
 }

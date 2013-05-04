@@ -6,3 +6,5 @@
 127.0.0.1 - - [30/Apr/2013:14:32:36 +0100] "GET /favicon.ico HTTP/1.1" 404 580 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
 127.0.0.1 - - [30/Apr/2013:14:35:54 +0100] "GET / HTTP/1.1" 200 113 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
 127.0.0.1 - - [30/Apr/2013:14:35:54 +0100] "GET /favicon.ico HTTP/1.1" 404 580 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
+127.0.0.1 - - [04/May/2013:17:00:29 +0100] "GET / HTTP/1.1" 500 604 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
+127.0.0.1 - - [04/May/2013:17:00:29 +0100] "GET /favicon.ico HTTP/1.1" 404 580 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
