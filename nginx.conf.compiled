@@ -1,0 +1,41 @@
+worker_processes  1;
+error_log stderr notice;
+daemon off;
+env LAPIS_ENVIRONMENT;
+
+events {
+  worker_connections 1024;
+}
+
+http {
+  include mime.types;
+
+  server {
+    listen 8080;
+    lua_code_cache off;
+
+    location / {
+      default_type text/html;
+      set $_url "";
+      content_by_lua_file "web.lua";
+    }
+
+    location /static/ {
+      alias static/;
+    }
+
+    location /favicon.ico {
+      alias static/favicon.ico;
+    }
+
+    location = /query {
+      internal;
+      postgres_pass database;
+      postgres_query $echo_request_body;
+    }
+  }
+
+  upstream database {
+    postgres_server ${{pg POSTGRESQL_URL}};
+  }
+}
